@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inventory Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Inventory Search</h1> 
+    <p style="text-align:center; color:#666;">
+  Search and filter inventory across suppliers easily :)
+</p>
+
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Search product..." />
+
+      <select id="category">
+        <option value="All">All Categories</option>
+        <option value="Furniture">Furniture</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Stationery">Stationery</option>
+      </select>
+
+      <input type="number" id="minPrice" placeholder="Min Price" min="0" />
+      <input type="number" id="maxPrice" placeholder="Max Price" min="0" />
+
+      <button onclick="fetchResults()">Search</button>
+      <button onclick="resetFilters()" class="reset-btn">Reset</button>
+    </div>
+
+    <div id="status"></div>
+
+    <table id="resultsTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Price</th>
+          <th>Supplier</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

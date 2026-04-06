@@ -1,0 +1,16 @@
+[
+  { "id": 1, "productName": "Office Chair", "category": "Furniture", "price": 120, "supplier": "ABC Traders" },
+  { "id": 2, "productName": "Wooden Desk", "category": "Furniture", "price": 250, "supplier": "XYZ Furnishings" },
+  { "id": 3, "productName": "Laptop", "category": "Electronics", "price": 800, "supplier": "TechWorld" },
+  { "id": 4, "productName": "Wireless Mouse", "category": "Electronics", "price": 25, "supplier": "TechWorld" },
+  { "id": 5, "productName": "Notebook Pack", "category": "Stationery", "price": 15, "supplier": "PaperMart" },
+  { "id": 6, "productName": "Pen Set", "category": "Stationery", "price": 10, "supplier": "PaperMart" },
+  { "id": 7, "productName": "Gaming Chair", "category": "Furniture", "price": 300, "supplier": "ComfortZone" },
+  { "id": 8, "productName": "Monitor 24 inch", "category": "Electronics", "price": 200, "supplier": "ScreenHub" },
+  { "id": 9, "productName": "Bookshelf", "category": "Furniture", "price": 180, "supplier": "XYZ Furnishings" },
+  { "id": 10, "productName": "Desk Lamp", "category": "Electronics", "price": 45, "supplier": "LightHouse" },
+  { "id": 11, "productName": "Printer", "category": "Electronics", "price": 150, "supplier": "OfficeTech" },
+  { "id": 12, "productName": "Stapler", "category": "Stationery", "price": 8, "supplier": "PaperMart" }, 
+  { "id": 13, "productName": "Wooden Almirah", "category": "Furniture", "price": 250, "supplier": "XYZ Furnishings" },
+  { "id": 14, "productName": "Laptop Charger", "category": "Electronics", "price": 300, "supplier": "TechWorld" }
+]

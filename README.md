@@ -29,26 +29,27 @@
 
 ## 🔍 How Filtering Works
 
-Filtering is applied sequentially:
+Filtering is performed on the backend using query parameters received from the client.
 
-1. Product name (search query)
-2. Category match
-3. Minimum price
-4. Maximum price
+* `q` → filters products whose names include the search term
+* `category` → matches exact category
+* `minPrice` → includes products with price ≥ minPrice
+* `maxPrice` → includes products with price ≤ maxPrice
 
-If no filters are applied, all inventory items are returned.
+All filters can be combined, and they are applied sequentially to return the final filtered dataset.
+If no filters are provided, the API returns all inventory items.
 
 ---
 
 ## 🔤 Case-Insensitive Search
 
-Search is implemented using:
+Case-insensitive search is implemented by converting both the product name and the search query to lowercase before comparison:
 
-```js id="x92kpl"
-productName.toLowerCase().includes(q.toLowerCase())
+```js id="p8z2fk"
+product.productName.toLowerCase().includes(q.toLowerCase())
 ```
 
-This ensures matching regardless of uppercase/lowercase input.
+This ensures that searches like `"chair"`, `"Chair"`, or `"CHAIR"` return the same results.
 
 ---
 
@@ -87,4 +88,10 @@ node server.js
 
 ### Frontend
 
-Open `index.html` using Live Server or browser.
+Open `index.html` using Live Server or browser. 
+
+--- 
+
+## 📸 Screenshots 
+
+

@@ -1,4 +1,10 @@
-# Inventory Search API + UI (Part A)
+# Inventory Search API + UI (Part A) 
+
+## 🔗 Live Demo
+Frontend: https://your-project.vercel.app  
+Backend: https://your-backend.onrender.com/search
+
+---
 
 ## 🚀 Features (As per Assignment)
 

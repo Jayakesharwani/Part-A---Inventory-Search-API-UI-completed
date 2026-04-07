@@ -112,4 +112,3 @@ Open `index.html` using Live Server or browser.
 ### Filters Cleared Feature 
 
 <img src="./screenshots/filtersCleared.png" width="700"/>
-

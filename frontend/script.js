@@ -1,4 +1,4 @@
-const API_URL = "https://part-a-inventory-search-api-ui.onrender.com";
+const API_URL = "https://part-a-inventory-search-api-ui.onrender.com/search";
 
 let debounceTimer; 
 

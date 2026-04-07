@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/search";
+const API_URL = "https://part-a-inventory-search-api-ui.onrender.com";
 
 let debounceTimer; 
 

@@ -1,7 +1,8 @@
 # Inventory Search API + UI (Part A) 
 
 ## 🔗 Live Demo
-Frontend: https://part-a-inventory-search-api-ui-comp.vercel.app 
+
+Frontend: https://part-a-inventory-search-api-ui-comp.vercel.app
 Backend: https://part-a-inventory-search-api-ui.onrender.com
 
 ---

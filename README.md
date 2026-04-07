@@ -11,7 +11,7 @@
   * Empty search query
   * Invalid price range
   * No matching results
-  
+
 * Clean and simple UI
 
 ---
@@ -88,6 +88,7 @@ node server.js
 
 ### Frontend
 
+<<<<<<< HEAD
 Open `index.html` using Live Server or browser. 
 
 --- 
@@ -95,3 +96,29 @@ Open `index.html` using Live Server or browser.
 ## 📸 Screenshots 
 
 
+=======
+Open `index.html` using Live Server or browser.
+
+--- 
+
+## 📸 Screenshots
+
+### Home Page UI
+
+<img src="./screenshots/home.png" width="700"/>
+
+### Search Feature
+
+<img src="./screenshots/search.png" width="700"/>
+
+### Handled Edge Cases 
+
+<p align="center">
+  <img src="./screenshots/edgeCase_InvalidPriceRange.png" width="45%" />
+  <img src="./screenshots/edgeCase_NoResultsFound.png" width="45%" />
+</p> 
+
+### Filters Cleared Feature 
+
+<img src="./screenshots/filtersCleared.png" width="700"/>
+>>>>>>> fbad297 (Added screenshots)

@@ -88,19 +88,10 @@ node server.js
 
 ### Frontend
 
-<<<<<<< HEAD
 Open `index.html` using Live Server or browser. 
 
 --- 
-
-## 📸 Screenshots 
-
-
-=======
-Open `index.html` using Live Server or browser.
-
---- 
-
+ 
 ## 📸 Screenshots
 
 ### Home Page UI
@@ -121,4 +112,4 @@ Open `index.html` using Live Server or browser.
 ### Filters Cleared Feature 
 
 <img src="./screenshots/filtersCleared.png" width="700"/>
->>>>>>> fbad297 (Added screenshots)
+

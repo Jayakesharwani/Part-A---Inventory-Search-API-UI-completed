@@ -104,7 +104,7 @@ Open `index.html` using Live Server or browser.
 
 ### Handled Edge Cases 
 
-<p align="center">
+<p>
   <img src="./screenshots/edgeCase_InvalidPriceRange.png" width="45%" />
   <img src="./screenshots/edgeCase_NoResultsFound.png" width="45%" />
 </p> 
